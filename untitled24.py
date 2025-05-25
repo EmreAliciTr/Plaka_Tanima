@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 22 18:48:22 2025
-
-@author: hp
-"""
-
 import cv2
 import imutils
 import easyocr

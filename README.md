@@ -56,7 +56,7 @@
 
 🚀 Uygulama Nasıl Çalışır?
 
-  "python plaka_tanima.py"
+  "untitled24.py"
 
         🟢 Bilgisayar kamerası açılır.
 
@@ -118,5 +118,8 @@ Proje Hakkında:
                                                 📅 Proje Tarihi: 2025
 
                                                         🪪Lisans ve Fikri Mülkiyet: Bu Projenin fikri mülkiyetinin tamamı geliştiriciye aittir. Geliştirici izni/bilgisi dahilinde kullanılabilir.
+
+                                                                URL ve QR erişim: https://github.com/EmreAliciTr/Plaka_Tanima.git
+ ![qr](https://github.com/user-attachments/assets/18e4d5ea-4c12-4c88-b8be-3d8aad2289d1)
 
                                         

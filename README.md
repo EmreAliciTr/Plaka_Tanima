@@ -102,6 +102,17 @@
 
         Görüntü işleme dersleri ve projeleri
 
+🗂️Dosya Yapısı
+                  .
+                  ├── captured_plates       # Klasöre Önceden Yüklenmiş Plakalar
+                  ├── plates_to_read        # Anlık Okunan Plaka Kayıtları
+                  ├──05-25 234707.png       # Örnek Görsel
+                  ├── 05-25 234904.png      # Örnek Görsel
+                  ├── README.md             # Açıklama dosyası
+                  ├── requirements.txt      # Gerekli Kütüphaneler
+                  └── untitled24.py         # Program Kodları Bulunan Dosya
+                                    
+
 📸 Örnek Çıktılar
 ![Ekran görüntüsü 2025-05-25 234707](https://github.com/user-attachments/assets/feef89de-cafe-49b4-9067-c5a874462e3c)
 ![Ekran görüntüsü 2025-05-25 234904](https://github.com/user-attachments/assets/42ece296-cb20-4da1-acbe-42d198b7d000)

@@ -104,13 +104,14 @@
 
 🗂️Dosya Yapısı
                   .
-                  ├── captured_plates       # Klasöre Önceden Yüklenmiş Plakalar
-                  ├── plates_to_read        # Anlık Okunan Plaka Kayıtları
-                  ├──05-25 234707.png       # Örnek Görsel
-                  ├── 05-25 234904.png      # Örnek Görsel
-                  ├── README.md             # Açıklama dosyası
-                  ├── requirements.txt      # Gerekli Kütüphaneler
-                  └── untitled24.py         # Program Kodları Bulunan Dosya
+                  ├── captured_plates         # Klasöre Önceden Yüklenmiş Plakalar
+                  ├── plates_to_read          # Anlık Okunan Plaka Kayıtları
+                  ├──05-25 234707.png         # Örnek Görsel
+                  ├── 05-25 234904.png        # Örnek Görsel
+                  ├──Poster_Plaka_Tanima.pdf  # Proje Tanıtımı İçerir
+                  ├── README.md               # Açıklama dosyası
+                  ├── requirements.txt        # Gerekli Kütüphaneler
+                  └── untitled24.py           # Program Kodları Bulunan Dosya
                                     
 
 📸 Örnek Çıktılar

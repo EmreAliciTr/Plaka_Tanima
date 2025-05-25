@@ -1,66 +1,116 @@
-🧠 Projenin Amacı
-Geliştirdiğim bu yazılım, kameradan veya klasörden alınan görüntülerdeki plakaları:
+🚗 Gerçek Zamanlı Plaka Tanıma Sistemi
 
-Otomatik olarak algılar
-
-OCR (optik karakter tanıma) ile plakadaki harf ve rakamları okur
-
-Okunan plakaları tekrar kontrol eder ve gereksiz kopyaları engeller
-
-Her tanınan plakayı bir dosyaya kaydeder ve sayısını takip eder.
-
-🔧 Kullanılan Teknolojiler
-OpenCV: Görüntü işleme ve kontur analizi
-
-imutils: Görüntüleri yeniden boyutlandırma ve kontur alma
-
-EasyOCR: Plaka karakterlerini tanıma (Türkçe destekli)
-
-NumPy: Görsel işlemler
-
-datetime & os: Dosya yönetimi ve zaman damgası
-
-🧪 Sistemin İşleyişi
-Görüntü Girişi:
-
-Kameradan canlı görüntü alınıyor.
-
-Alternatif olarak klasördeki fotoğraflar taranıyor (plates_to_read).
-
-Plaka Tespiti:
-
-Görüntü griye çevriliyor, bulanıklaştırılıyor ve kenarları bulunuyor.
-
-Belirli oranda dörtgen benzeri konturlar plaka olarak varsayılıyor.
-
-Plaka Okuma:
-
-EasyOCR ile plaka karakterleri okunuyor.
-
-Sadece geçerli plakalar (harf + sayı oranı yeterli) kaydediliyor.
-
-Tekrar Algılama Engeli:
-
-Aynı plaka daha önce tanındıysa sadece sayacı artırılıyor.
-![Ekran görüntüsü 2025-05-26 001607](https://github.com/user-attachments/assets/298d0cbb-92d0-41b6-904b-9f3587420dc4)
+        Python, OpenCV ve EasyOCR ile geliştirilmiş akıllı, ekonomik ve kullanıcı dostu bir güvenlik çözümü.
 
 
-Her plakanın bir adet küçük görseli ve sayacı ekranda gösteriliyor.
+🧠 Neden Böyle Bir Projeye İhtiyaç Duyuldu?
 
-💡 Neden Bu Sistem Etkili?
-❌ Aynı plaka tekrar tekrar analiz edilmez (verimlilik artar)
+        Günümüz şehirleri her geçen gün daha kalabalık ve hızlı hâle gelirken, araç trafiği ve güvenlik kontrolü artık sadece kurumların değil, apartmanlar, okullar ve bireylerin de temel ihtiyacı hâline gelmiştir.
 
-✅ Sadece geçerli plaka formatları tanınır (hatalı veriler elenir)
+        🚫 Manuel giriş-çıkış kontrolleri, insan hatasına ve güvenlik zaafına açık.
 
-📁 Her okunan plaka dosyaya kaydedilir (otomatik kayıt)
+        💸 Mevcut plaka tanıma sistemleri, genellikle maliyetli ve erişimi zor çözümler sunuyor.
 
-👁️ Görsel olarak da önizleme penceresi oluşturuluyor (anlık takip)
+        🌐 Bulut temelli sistemler, her zaman internet erişimi gerektiriyor ve yerelleştirilmemiş.
 
-🚀 Gelecek Geliştirmeler
-YOLOv5 gibi daha sağlam bir modelle araç ve plaka tespiti
+        ✅ İhtiyaç: Akıllı, ekonomik ve erişilebilir bir çözüm!
 
-Web arayüzü veya mobil entegrasyon
 
-Plaka geçmişini veri tabanında tutma ve sorgulama
+🎯 Projenin Amacı
 
-Hatalı OCR çıktıları için manuel düzeltme paneli
+        Bu proje, kameradan alınan görüntüler üzerinden araç plakalarını gerçek zamanlı ve yüksek doğrulukla tespit eden, tekrar eden plakaları filtreleyen, okunabilir bir arayüz sunan hafif ama etkili bir sistem geliştirmeyi amaçlar.
+
+
+👤 Hedef Kullanıcılar
+
+        Yapay zekâ ve görüntü işleme alanında çalışan öğrenciler
+
+        Apartman ve site yöneticileri
+
+        Küçük ve orta ölçekli işletmeler
+
+        Güvenlik sistemleriyle ilgilenen geliştiriciler
+
+        Akademik projelerde örnek uygulama arayan araştırmacılar
+
+
+⚙️ Kullanılan Teknolojiler
+
+        Python 3.10
+
+        OpenCV 4.x – Görüntü işleme
+
+        EasyOCR – Türkçe destekli plaka okuma
+
+        NumPy – Veri işleme
+
+        imutils – Görsel yeniden boyutlandırma
+
+        Haar Cascade + Kontur Analizi – Plaka bölgesi tespiti
+
+
+🔧 Kurulum Adımları
+
+  "pip install opencv-python easyocr numpy imutils"
+
+
+🚀 Uygulama Nasıl Çalışır?
+
+  "python plaka_tanima.py"
+
+        🟢 Bilgisayar kamerası açılır.
+
+        🟢 Plaka benzeri alanlar kontur analizleri ile bulunur.
+
+        🟢 EasyOCR ile karakterler okunur ve filtrelenir.
+
+        🟢 Her plaka yalnızca bir kez işlenir.
+
+        🟢 Okunan plakalar anlık olarak görselleştirilir ve kaydedilir.
+
+
+🎨 Sistem Özellikleri
+
+        ✅ Gerçek zamanlı plaka tanıma
+
+        ✅ Aynı plakayı tekrar tekrar işlememe
+
+        ✅ Görselleştirilmiş thumbnail (küçük kart) gösterimi
+
+        ✅ Türkçe karakter desteği
+
+        ✅ Klasörden toplu plaka okuma
+
+        ✅ Offline çalışma yeteneği
+
+        ✅ Ücretsiz, açık kaynak yapısı
+
+        ✅ Sade ve kullanıcı dostu aray
+
+“Sadece tanımıyor, hatırlıyor da.”
+
+
+🧩 Kullanım Alanları
+
+        Site ve apartman otopark sistemleri
+
+        Okul kampüs giriş çıkış kontrolü
+
+        Küçük işletmeler için araç takibi
+
+        Prototip güvenlik sistemleri
+
+        Görüntü işleme dersleri ve projeleri
+
+📸 Örnek Çıktılar
+![Ekran görüntüsü 2025-05-25 234707](https://github.com/user-attachments/assets/feef89de-cafe-49b4-9067-c5a874462e3c)
+![Ekran görüntüsü 2025-05-25 234904](https://github.com/user-attachments/assets/42ece296-cb20-4da1-acbe-42d198b7d000)
+
+
+        
+Proje Hakkında:
+                        🧑‍💻 Geliştirici: [Emre Alıcı]
+
+                                🏫 [2405902008 - Yapay Zeka Operatörlüğü]
+                
+                                        📅 Proje Tarihi: 2025

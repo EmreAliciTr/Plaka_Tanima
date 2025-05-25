@@ -109,8 +109,14 @@
 
         
 Proje Hakkında:
-                        🧑‍💻 Geliştirici: [Emre Alıcı]
+                        🧑‍💻 Geliştirici ve Katkıda Bulunanlar: [Emre Alıcı]
 
-                                🏫 [2405902008 - Yapay Zeka Operatörlüğü]
+                                👷‍♂️İş Bölümü: Tamamı Emre Alıcı'ya aittir.
+
+                                        🏫 [2405902008 - Yapay Zeka Operatörlüğü]
                 
-                                        📅 Proje Tarihi: 2025
+                                                📅 Proje Tarihi: 2025
+
+                                                        🪪Lisans ve Fikri Mülkiyet: Bu Projenin fikri mülkiyetinin tamamı geliştiriciye aittir. Geliştirici izni/bilgisi dahilinde kullanılabilir.
+
+                                        

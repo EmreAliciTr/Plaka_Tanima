@@ -1,0 +1,10 @@
+Gerekli Kütüphaneler:
+
+import cv2
+import imutils
+import easyocr
+import re
+import math
+import numpy as np
+import os
+from datetime import datetime

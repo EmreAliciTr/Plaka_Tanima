@@ -132,5 +132,7 @@ Proje Hakkında:
 
                                                                 URL ve QR erişim: https://github.com/EmreAliciTr/Plaka_Tanima.git
  ![qr](https://github.com/user-attachments/assets/18e4d5ea-4c12-4c88-b8be-3d8aad2289d1)
-
-                                        
+ 
+Poster:
+     [Poster_Plaka_Tanima.pdf](https://github.com/user-attachments/files/20433183/Poster_Plaka_Tanima.pdf)
+                                   

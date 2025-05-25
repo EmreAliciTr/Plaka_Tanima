@@ -1,6 +1,6 @@
 🚗 Gerçek Zamanlı Plaka Tanıma Sistemi
 
-        Python, OpenCV ve EasyOCR ile geliştirilmiş akıllı, ekonomik ve kullanıcı dostu bir güvenlik çözümü.
+         Python, OpenCV ve EasyOCR ile geliştirilmiş akıllı, ekonomik ve kullanıcı dostu bir güvenlik çözümü.
 
 
 🧠 Neden Böyle Bir Projeye İhtiyaç Duyuldu?
